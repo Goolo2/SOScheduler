@@ -1,0 +1,28 @@
+test.ipynb
+__pycache__/
+backup/
+loginfo/
+beliefs/
+output/
+input/
+data/
+*.o
+*.gch
+.idea/
+cppinclude/
+.DS_Store
+data.zip
+alloutputs/
+runs/
+baselines/ddrl/*.tar
+simulators/Cell2Fire/Cell2FireC/Cell2Fire
+infocom/
+realworld/
+testbed/output
+testbed/figures
+simulations/output
+simulations/figures
+backups/C2Fsimulations/
+trash
+# testbed
+# configs

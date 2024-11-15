@@ -1,0 +1,34 @@
+strategy: confentropy
+verbose: True
+seed: 11
+
+# environment
+env: 1 # 1=grid, 2=cell
+dimension: 50
+fire_size: 3
+fire_num: 1
+update_interval: 1  # This fire is already slow, 2 -> 1
+update_minutes: 6 # minutes per update
+ros_cv: 0.5
+delta_beta: 0.8 #0.15/0.2763
+total_iterations: 100
+alpha: 0.2763 #0.2763
+beta: 0.90483
+
+# robot
+num_robot: 15
+horizon: 2
+communication: 1
+image_size: 3
+suppress_size: 1
+uncertainty: yes
+suppress: yes
+control_rate: 10.0
+sensing_rate: 20.0
+measure_correct: 0.95
+threshold: 1e-100
+weight: 0.5
+capacity: 16
+
+
+save_dir: '/home/xuecheng/projects/firehunter/simulations/output/confentropy/'
