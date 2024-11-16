@@ -11,7 +11,6 @@ This repository contains the code for reproducing results in the following paper
   volume={11},
   number={14},
   pages={24858-24871},
-  keywords={Wildfires;Monitoring;Dynamic scheduling;Task analysis;Sensors;Autonomous aerial vehicles;Wireless sensor networks;Autonomous aerial vehicles;multirobot systems;robot sensing systems},
   doi={10.1109/JIOT.2024.3389771}}
 
 ```
